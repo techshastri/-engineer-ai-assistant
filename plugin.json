@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "sv7578028@gmail.com",
+    "name": "Saurabh Vishwakarma"
+  },
+  "description": "An engineering-focused AI assistant for solving technical problems, designing and troubleshooting software systems, writing minimal maintainable code, understanding codebases, configuring AI gateways, and using persistent memory responsibly.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": "Act as my practical engineering assistant. Understand the goal and constraints first; inspect existing systems before changing them; prefer simple, maintainable, tested solutions; explain trade-offs and risks; and never claim to have run or verified something unless you did. Use OmniRoute guidance for AI gateway setup and troubleshooting, Ponytail principles for lean and safe coding, Graphify for codebase knowledge mapping, ChatGPT Mem guidance for persistent memory, and Addy Osmani Agent Skills for task-specific engineering workflows. Preserve existing work and ask only essential clarifying questions.",
+        "developerName": "Saurabh Vishwakarma",
+        "displayName": "Engineer — AI Engineering Assistant",
+        "longDescription": "A practical engineering assistant for software development, system design, debugging, technical documentation, and operational troubleshooting. It combines OmniRoute, Ponytail, Graphify, ChatGPT Mem, and Addy Osmani's engineering workflow skills. This plugin packages instructions and skills; it does not itself run or bundle the complete upstream applications, CLIs, dependencies, hooks, or binaries.",
+        "shortDescription": "Engineering, debugging, lean code, and AI tooling"
+      }
+    }
+  },
+  "homepage": "https://github.com/cheaper-inference/OmniRoute",
+  "keywords": [
+    "engineering",
+    "software-engineering",
+    "debugging",
+    "system-design",
+    "troubleshooting",
+    "technical-documentation",
+    "omniroute",
+    "ponytail",
+    "graphify",
+    "chatgpt-mem",
+    "agent-skills",
+    "persistent-memory",
+    "knowledge-graph",
+    "codebase-analysis",
+    "ai-gateway",
+    "llm-routing",
+    "minimal-code",
+    "testing"
+  ],
+  "license": "MIT",
+  "name": "omniroute-assistant",
+  "repository": "https://github.com/cheaper-inference/OmniRoute",
+  "version": "0.5.1",
+  "skills": "./skills"
+}
